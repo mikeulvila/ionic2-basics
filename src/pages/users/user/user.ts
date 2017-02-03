@@ -7,7 +7,7 @@ import {NavParams} from "ionic-angular";
   selector: 'page-user',
   templateUrl: 'user.html'
 })
-export class UserPage {
+export class UserPage implements OnInit {
   name: string;
 
   constructor (private navParams: NavParams) {}
