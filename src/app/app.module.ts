@@ -3,7 +3,7 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { UsersPage } from '../pages/users/users';
-import { UserPage } from '../pages/user/user';
+import { UserPage } from '../pages/users/user/user';
 
 @NgModule({
   declarations: [
