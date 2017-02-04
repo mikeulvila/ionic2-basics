@@ -13,7 +13,12 @@ export class HomePage {
 
   constructor (public navCtrl: NavController) {}
 
-  onGoToShop () {
+  onGoToUsers() {
+    this.navCtrl.push(this.usersPage)
+      .catch((error) => console.log(`Access denied: ${error}`));
+  }
+
+  onGoToShop() {
     this.navCtrl.push(ShopPage);
   }
 }
